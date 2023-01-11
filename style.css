@@ -71,7 +71,7 @@ fieldset{
     display: block;
 }
 
-.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo select {
+.campo input[type="text"], .campo input[type="email"], .campo select {
     height: 30px;
     width: 200px;
     margin: 5px;
@@ -79,6 +79,20 @@ fieldset{
     padding: 0.2em;
     border: 2px solid #2153cc;
     box-shadow: 2px 2px 2px rgb rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    display: block;
+    box-sizing: content-box;
+}
+
+.campo input[type="tel"] {
+    height: 30px;
+    width: 120px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 0.2em;
+    border: 2px solid #2153cc;
+    box-shadow: 2px 2px 2px rgb rgba(0, 0, 0, 0.2);
+    font-size: 16px;
     display: block;
     box-sizing: content-box;
 }
