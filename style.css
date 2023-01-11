@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+body {
+    background: #c3c3c3;
+    font-family: sans-serif;
+}
+
 .logo {
     display:flex;
     flex-direction: row;
@@ -45,4 +50,53 @@
 
 fieldset{
     border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    color: #2153cc;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo select {
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 0.2em;
+    border: 2px solid #2153cc;
+    box-shadow: 2px 2px 2px rgb rgba(0, 0, 0, 0.2);
+    display: block;
+    box-sizing: content-box;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #2153cc;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    translate: (-50%, -50%);
+}
+
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
 }
