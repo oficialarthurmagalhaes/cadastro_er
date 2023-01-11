@@ -84,21 +84,8 @@ fieldset{
     box-sizing: content-box;
 }
 
-.campo input[type="tel"] {
-    height: 30px;
-    width: 120px;
-    margin: 5px;
-    border-radius: 5px;
-    padding: 0.2em;
-    border: 2px solid #2153cc;
-    box-shadow: 2px 2px 2px rgb rgba(0, 0, 0, 0.2);
-    font-size: 16px;
-    display: block;
-    box-sizing: content-box;
-}
-
 .botao {
-    font-size: 1.2em;
+    font-size: 20px;
     background: #2153cc;
     border: 0;
     border-radius: 5px;
