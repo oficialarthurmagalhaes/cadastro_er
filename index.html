@@ -15,8 +15,8 @@
     </div>
 
     <div class="cabecalho">
-        <h1>Cadastro de Participantes</h1>
-        <h3>Equipe de Robótica</h3>
+        <h1>Processo Seletivo</h1>
+        <h3>Equipe de Robótica 2023/1</h3>
         <p>Preencha com seus dados</p>
     </div>
 
@@ -52,6 +52,31 @@
                 </div>
             </div>
         </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="whatsapp"><strong>WhatsApp:</strong></label>
+                <input type="tel" name="whatsapp" id="whatsapp" placeholder="99-99999-9999" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+            </div>
+
+            <div>
+                <label><strong>Qual seu nível de experiência com a robótica?</strong></label>
+                <br>
+                <label>
+                    <input type="radio" name="robotica" value="nenhuma" checked>Nenhuma
+                </label>
+                <label>
+                    <input type="radio" name="robotica" value="tenhoumanocao">Tenho uma noção
+                </label>
+                <label>
+                    <input type="radio" name="robotica" value="jamanjomuito">Já manjo muito
+                </label>
+            </div>
+        </fieldset>
+
+        <div>
+            <button class="botao" type="submit">Inscrever-se</button>
+        </div>
 
     </form>
 

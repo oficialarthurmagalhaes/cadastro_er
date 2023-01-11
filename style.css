@@ -42,3 +42,7 @@
     font-size: 16px;
     margin-top: 20px;
 }
+
+fieldset{
+    border: 0;
+}
